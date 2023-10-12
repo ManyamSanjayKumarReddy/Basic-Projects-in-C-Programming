@@ -1,3 +1,5 @@
+
+
 ---
 
 # Project 1: Simple Calculator
@@ -69,3 +71,5 @@ Create a text-based Hangman game where players guess a word letter by letter wit
 Develop a simple text-based adventure game with different rooms and options for the player to navigate and interact with the environment.
 
 ---
+
+You can use these descriptions as the basis for your `README.md` file for each project, expanding upon them as needed with installation instructions, usage examples, and other relevant information.
