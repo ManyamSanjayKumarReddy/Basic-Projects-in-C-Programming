@@ -4,7 +4,7 @@
 #define MAX_STUDENTS 50
 
 // Function to calculate the average of an array of grades
-float calculateAverage(int grades[], int numStudents) {
+float calculateAverage(int const grades[], int numStudents) {
     float sum = 0;
     for (int i = 0; i < numStudents; i++) {
         sum += grades[i];
@@ -24,7 +24,7 @@ int findHighest(int grades[], int numStudents) {
 }
 
 // Function to find the lowest score in an array of grades
-int findLowest(int grades[], int numStudents) {
+int findLowest(int const grades[], int numStudents) {
     int lowest = grades[0];
     for (int i = 1; i < numStudents; i++) {
         if (grades[i] < lowest) {
