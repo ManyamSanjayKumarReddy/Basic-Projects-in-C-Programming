@@ -29,18 +29,18 @@ int main() {
         printf("2. View Contacts\n");
         printf("3. Exit\n");
         printf("Enter your choice: ");
-        scanf("%d", &choice);
+        scanf("%2d", &choice);
 
         switch (choice) {
             case 1:
                 if (numContacts < MAX_CONTACTS) {
                     struct Contact newContact;
                     printf("Enter Name: ");
-                    scanf(" %[^\n]", newContact.name);
+                    scanf(" %49[^\n]", newContact.name);
                     printf("Enter Phone: ");
-                    scanf(" %[^\n]", newContact.phone);
+                    scanf(" %14[^\n]", newContact.phone);
                     printf("Enter Email: ");
-                    scanf(" %[^\n]", newContact.email);
+                    scanf(" %49[^\n]", newContact.email);
 
                     contacts[numContacts] = newContact;
                     numContacts++;
