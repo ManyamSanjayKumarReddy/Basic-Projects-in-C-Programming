@@ -30,6 +30,7 @@ int main() {
         default:
             printf("Invalid operator\n");
     }
+    getch();
 
     return 0;
 }
