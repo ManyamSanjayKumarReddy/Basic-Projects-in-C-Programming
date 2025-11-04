@@ -1,3 +1,6 @@
+# Basic Projects in C Programming
+
+This repository contains simple and fun C projects designed for beginners to practice coding concepts like loops, functions, and file handling.
 
 
 ---
